@@ -13,6 +13,23 @@
         }
     }
     
+    .cards-features {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 9%;
+    }
+
+    .features-card {
+        margin: 0 30px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .cards-features {
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 768px) {

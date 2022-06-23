@@ -21,3 +21,18 @@ a {
 %shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
 }
+
+%block-title {
+    font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+}
+
+%card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
